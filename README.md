@@ -73,7 +73,7 @@ Los contenidos mostrados en la aplicación se obtienen desde una tabla de Supaba
 
 ### Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/next-c+kodigo.git
+git clone https://github.com/tu-usuario/next-kodigo.git
 
 ```
 
@@ -105,7 +105,7 @@ Abre http://localhost:3000 en tu navegador para ver el resultado.
 Para que el proyecto se conecte correctamente a la base de datos, es estrictamente necesario crear un archivo .env.local en la raíz del proyecto e incluir las siguientes variables.
 
 
-```bash
+```env
 # URL de la API del proyecto en Supabase
 NEXT_PUBLIC_SUPABASE_URL=[https://tu-id-de-proyecto.supabase.co](https://tu-id-de-proyecto.supabase.co)
 
