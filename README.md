@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Scent Factory (Catálogo de Perfumes)
 
-## Getting Started
+Landing page interactiva desarrollada con **Next.js** y **Supabase**.
 
-First, run the development server:
+El proyecto consiste en una landing page sobre **un catálogo de perfumes**, con información almacenada dinámicamente en una base de datos de Supabase.
 
+---
+
+## 📋 Descripción del proyecto
+
+Scent factory es una landing page moderna y responsive enfocada en **mostrar el catálogo de una tienda de perfumes**.
+
+El sitio permite a los usuarios explorar diferentes contenidos obtenidos desde una base de datos en **Supabase**, utilizando **Next.js App Router** para la estructura y navegación de la aplicación.
+
+El proyecto fue desarrollado aplicando buenas prácticas de desarrollo, incluyendo:
+
+- Server Components.
+- Rutas dinámicas.
+- Consumo de datos desde Supabase.
+- Manejo de estados de carga.
+- Manejo de errores.
+- Variables de entorno.
+- Políticas de seguridad RLS.
+- Diseño responsive.
+- Código organizado y reutilizable.
+
+---
+
+## 🚀 Demo
+
+🌎 **Sitio en producción:**
+
+[https://next-kodigo.vercel.app/](https://next-kodigo.vercel.app/)
+
+📦 **Repositorio de GitHub:**
+
+[https://github.com/vxctorp12/next-kodigo](https://github.com/vxctorp12/next-kodigo)
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+| Tecnología | Uso |
+|---|---|
+| **Next.js 16+** | Framework principal |
+| **React** | Construcción de componentes |
+| **TypeScript** | Tipado estático |
+| **Supabase** | Base de datos y backend serverless |
+| **PostgreSQL** | Base de datos utilizada por Supabase |
+| **Vercel** | Despliegue de la aplicación |
+| **CSS / Tailwind CSS** | Estilos y diseño responsive |
+
+---
+
+## ✨ Características principales
+
+### 🏠 Landing Page
+
+La página principal presenta:
+
+- Hero section.
+- Descripción de la temática.
+- Contenido destacado.
+- Navegación principal.
+- Secciones informativas.
+- Diseño adaptable a dispositivos móviles.
+
+### 🗄️ Integración con Supabase
+
+Los contenidos mostrados en la aplicación se obtienen desde una tabla de Supabase.
+
+## Instalación
+
+### Clonar el repositorio
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/tu-usuario/tu-repositorio.git
