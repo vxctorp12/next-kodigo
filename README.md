@@ -73,4 +73,42 @@ Los contenidos mostrados en la aplicación se obtienen desde una tabla de Supaba
 
 ### Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/tu-usuario/next-c+kodigo.git
+
+```
+
+### Navegar al repositorio del proyecto
+```bash
+cd next-kodigo
+```
+
+### Instalar dependencias
+
+```bash
+npm install
+```
+
+### Configurar variables de entorno
+
+Crea un archivo .env.local en la raíz del proyecto basándote en las instrucciones de la sección inferior.
+
+### Iniciar el servidor de desarrollo
+
+```bash
+npm run dev
+```
+
+Abre http://localhost:3000 en tu navegador para ver el resultado.
+
+## Variables de entorno necesarias
+
+Para que el proyecto se conecte correctamente a la base de datos, es estrictamente necesario crear un archivo .env.local en la raíz del proyecto e incluir las siguientes variables.
+
+
+```bash
+# URL de la API del proyecto en Supabase
+NEXT_PUBLIC_SUPABASE_URL=[https://tu-id-de-proyecto.supabase.co](https://tu-id-de-proyecto.supabase.co)
+
+# Clave pública (anon/publishable) para consultas seguras desde el cliente
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable__tu_clave_publica_aqui
+```
